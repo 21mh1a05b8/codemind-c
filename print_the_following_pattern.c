@@ -1,24 +1,16 @@
 #include<stdio.h>
-  
-int main()  
-{  
-    int rows,i,j,k;  
-    scanf("%d",&rows);  
-    for( i=rows;i>=1;i--)  
-    {  
-        for( j=1;j<=i-1;j++)  
-        {  
-            printf(" ");  
-        }  
-        for( k=1;k<=rows;k++)  
-        {  
-           if(i==1 || i==rows || k==1 || k==rows)  
-            printf("*");  
-            else  
-            printf(" ");   
-        }  
-        printf("
-");  
-    }  
-    return 0;  
+int main()
+{
+   int n,r,c;
+   scanf("%d",&n);
+   for(r=1;r<=n;r++)
+   {
+     for(c=1;c<=n;c++)
+     {
+       printf("%c ",r+64);
+     }
+     printf("
+");
+   }
+   return 0;
 }
