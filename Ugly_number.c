@@ -29,8 +29,4 @@ int n,x=0;
 		        { 
                 printf("Ugly Number");
                 }
-                return 0;
 }
-
-
- 
